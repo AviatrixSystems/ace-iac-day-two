@@ -1,6 +1,6 @@
 # ace-iac-day-two
 
-This repository is the code behind Lab 1 of ACE Iac
+This repository is the code behind Lab 3 of ACE IaC
 Secure Internet Egress Filtering Deployed using a GitOps workflow 
 
 ### Dependencies
