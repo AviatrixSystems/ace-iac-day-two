@@ -1,7 +1,7 @@
 // ACE-IAC Git Aviatrix Infrastructure
 
 data "aviatrix_gateway" "egress" {
-  gw_name = var.aws_spoke2_name
+  gw_name = var.azure_spoke2_name
 }
 
 resource "aviatrix_fqdn" "fqdn_filter" {
