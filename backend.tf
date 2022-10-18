@@ -4,6 +4,7 @@ terraform {
      organization = "Aviatrix-swelsh"
     workspaces {
       name = "ace-iac-day-two"
-    }
-  }
+   }
+ }
 }
+
