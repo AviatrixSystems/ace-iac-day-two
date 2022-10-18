@@ -8,6 +8,6 @@ app-fqdn-rules.tf @swelshavxsec
 
 # In a true org structure, these files should have the Network Operators account as the owner:
 main.tf @swelshavxnet
-provider.tf @swelshavxnet
-variables.tf @swelshavxnet
-versions.tf @swelshavxnet
+provider.tf @swelshavx
+variables.tf @swelshavx
+versions.tf @swelshavx
