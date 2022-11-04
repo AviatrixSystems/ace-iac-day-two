@@ -7,7 +7,7 @@
 app-fqdn-rules.tf @BitEtherSecops
 
 # In a true org structure, these files should have the Network Operators account as the owner:
-main.tf @<netops>
+main.tf @BitEtherSecops
 provider.tf @BitEtherSecops
 variables.tf @BitEtherSecops
 versions.tf @BitEtherSecops
