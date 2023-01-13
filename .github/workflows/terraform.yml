@@ -74,7 +74,7 @@ jobs:
       # Exit on Plan failure
       - name: Terraform Plan Status
         if: steps.plan.outcome == 'failure'
-        run: exit 0
+        run: exit 1
 
       # Terraform apply on push to main branch
       - name: Terraform Apply
