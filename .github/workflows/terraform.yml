@@ -28,11 +28,6 @@ jobs:
         with:
           cli_config_credentials_token: ${{ secrets.TF_API_TOKEN }}
 
-      # Check for proper terraform formatting
-      #- name: Terraform Format
-      #  id: fmt
-      #  run: terraform fmt -check
-
       # Initialize Terraform
       - name: Terraform Init
         id: init
