@@ -1,7 +1,7 @@
 terraform {
   required_version = ">= 1.1.0"
   backend "remote" {
-    organization = netops2023
+    organization = "netops2023"
     workspaces {
       name = "ace-iac-day-two"
     }
