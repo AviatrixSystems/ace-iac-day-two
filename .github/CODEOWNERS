@@ -8,6 +8,6 @@ app-fqdn-rules.tf sean.kim@bankwareglobal.com
 
 # In a true org structure, these files should have the Network Operators account as the owner:
 main.tf seokwoo@gmail.com
-provider.tf @<netops>
-variables.tf @<netops>
-versions.tf @<netops>
+provider.tf seokwoo@gmail.com
+variables.tf seokwoo@gmail.com
+versions.tf seokwoo@gmail.com
