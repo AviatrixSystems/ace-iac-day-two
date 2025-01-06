@@ -4,10 +4,10 @@
 # this repository, with the Development group able to author and push pull requests.
 
 # In a true org structure, this line would be something like: "app-fqdn-rules.tf @<secops>"
-app-fqdn-rules.tf @<secops>
+app-fqdn-rules.tf @kudeal2
 
 # In a true org structure, these files should have the Network Operators account as the owner:
-main.tf @<netops>
-provider.tf @<netops>
-variables.tf @<netops>
-versions.tf @<netops>
+main.tf @Kudeal
+provider.tf @Kudeal
+variables.tf @Kudeal
+versions.tf @Kudeal
