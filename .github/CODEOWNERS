@@ -7,7 +7,7 @@
 app-fqdn-rules.tf @<jsmcbethgit2>
 
 # In a true org structure, these files should have the Network Operators account as the owner:
-main.tf @<netops>
-provider.tf @<netops>
-variables.tf @<netops>
-versions.tf @<netops>
+main.tf @<jsmcbeth>
+provider.tf @<jsmcbeth>
+variables.tf @<jsmcbeth>
+versions.tf @<jsmcbeth>
