@@ -1,3 +1,4 @@
+# Lab completed by Daverick John Encluna
 // ACE-IAC Git Aviatrix Infrastructure
 
 data "aviatrix_spoke_gateway" "egress" {
@@ -31,3 +32,6 @@ resource "aviatrix_fqdn_tag_rule" "udp" {
   port          = each.value
   depends_on    = [aviatrix_fqdn.fqdn_filter]
 }
+git add .
+git commit -m "Completed IaC lab"
+git push origin my-lab-submission
