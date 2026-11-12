@@ -21,10 +21,10 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@0717577d45739eb3c851188b29f50ed6c0b2194e # v2.8.0
 
       - name: Setup Terraform
-        uses: hashicorp/setup-terraform@v1
+        uses: hashicorp/setup-terraform@ed3a0531877aca392eb870f440d9ae7aba83a6bd # v1.4.0
         with:
           cli_config_credentials_token: ${{ secrets.TF_API_TOKEN }}
 
@@ -47,7 +47,7 @@ jobs:
 
       # Add terraform plan output back into the pull request
       - name: Update Pull Request
-        uses: actions/github-script@0.9.0
+        uses: actions/github-script@5d03ada4b0a753e9460b312e61cc4f8fdeacf163 # 0.9.0
         if: github.event_name == 'pull_request'
         env:
           PLAN: "terraform\n${{ steps.plan.outputs.stdout }}"
